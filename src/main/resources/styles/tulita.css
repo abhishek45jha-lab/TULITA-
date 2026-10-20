@@ -1,0 +1,130 @@
+/* Tulita 3.0 — premium navy + amber workspace. Local fonts, no network assets. */
+.root { -fx-font-family: "Segoe UI", "Inter", "DejaVu Sans", sans-serif; -fx-font-size: 12px; -fx-text-fill: #14243a; -fx-background-color: #eef1f6; -fx-accent: #16324f; -fx-focus-color: #c8a45c; -fx-faint-focus-color: transparent; }
+.label { -fx-text-fill: #14243a; }
+.button { -fx-cursor: hand; -fx-font-weight: bold; -fx-background-insets: 0; }
+.button:focused { -fx-border-color: #c8a45c; -fx-border-width: 2; -fx-border-radius: 9; }
+
+/* ---------- left rail ---------- */
+.rail { -fx-background-color: linear-gradient(to bottom, #0d2338 0%, #16324f 55%, #1c3f60 100%); -fx-padding: 30 22 26 22; -fx-spacing: 8; }
+.rail .label, .rail .separator .line { -fx-text-fill: #dbe6f1; }
+.brand-mark { -fx-background-color: linear-gradient(to bottom right, #f0d69a, #c8a45c); -fx-text-fill: #12283d; -fx-font-size: 26; -fx-font-weight: bold; -fx-padding: 1 12 3 12; -fx-background-radius: 12; }
+.brand { -fx-font-size: 28; -fx-font-weight: bold; -fx-text-fill: #ffffff; }
+.side-tagline { -fx-font-size: 9; -fx-text-fill: #8fa9c2; -fx-font-weight: bold; }
+.rail .separator { -fx-padding: 18 0 12 0; }
+.rail .separator .line { -fx-border-color: #2b4c6c; -fx-border-width: 1 0 0 0; }
+.rail-heading { -fx-font-size: 9; -fx-font-weight: bold; -fx-text-fill: #7d9ab5; -fx-padding: 18 0 6 4; }
+.nav-button { -fx-background-color: transparent; -fx-padding: 13 14; -fx-text-fill: #c6d6e5; -fx-background-radius: 10; -fx-alignment: center-left; -fx-font-size: 12.5; }
+.nav-button:hover { -fx-background-color: #23445f; -fx-text-fill: #ffffff; }
+.nav-active { -fx-background-color: #24486a; -fx-text-fill: #ffffff; -fx-border-color: #c8a45c; -fx-border-width: 0 0 0 3; -fx-border-radius: 0 10 10 0; }
+.rail-stats { -fx-background-color: #0e2740; -fx-background-radius: 12; -fx-padding: 14 14; }
+.rail-value { -fx-font-size: 13; -fx-font-weight: bold; -fx-text-fill: #f3e2b8; }
+.rail-caption { -fx-font-size: 10; -fx-text-fill: #90a9c0; }
+.rail-note { -fx-font-size: 10.5; -fx-text-fill: #9db4c9; -fx-line-spacing: 4; }
+
+/* ---------- workspace ---------- */
+.workspace { -fx-background-color: #eef1f6; }
+.main-scroll, .main-scroll > .viewport { -fx-background-color: #eef1f6; -fx-border-width: 0; }
+.main-scroll .scroll-bar:vertical { -fx-pref-width: 10; -fx-background-color: transparent; }
+.main-scroll .scroll-bar .thumb { -fx-background-color: #c3ccd8; -fx-background-radius: 6; }
+.main-scroll .scroll-bar .increment-button, .main-scroll .scroll-bar .decrement-button { -fx-padding: 0; }
+.crumb { -fx-font-size: 11; -fx-text-fill: #7a8a9c; -fx-font-weight: bold; }
+.pill-soft { -fx-background-color: #e2e8f0; -fx-text-fill: #4a6076; -fx-font-size: 9; -fx-font-weight: bold; -fx-padding: 5 10; -fx-background-radius: 20; }
+
+.hero { -fx-background-color: linear-gradient(to bottom right, #12293f 0%, #1b4160 58%, #215378 100%); -fx-background-radius: 18; -fx-padding: 30 32; -fx-min-height: 214; }
+.hero-kicker { -fx-font-size: 9; -fx-font-weight: bold; -fx-text-fill: #e2c88c; }
+.hero-title { -fx-font-size: 33; -fx-font-weight: bold; -fx-text-fill: #ffffff; -fx-line-spacing: -2; }
+.hero-subtitle { -fx-font-size: 13; -fx-text-fill: #cfe0ef; -fx-font-weight: bold; }
+.hero-copy { -fx-font-size: 11.5; -fx-text-fill: #a9c2d8; -fx-line-spacing: 4; }
+.kpi-tile { -fx-background-color: rgba(255,255,255,0.09); -fx-background-radius: 14; -fx-padding: 14 14; -fx-border-color: rgba(255,255,255,0.14); -fx-border-radius: 14; }
+.kpi-value { -fx-font-size: 22; -fx-font-weight: bold; -fx-text-fill: #ffffff; }
+.kpi-caption { -fx-font-size: 8.5; -fx-font-weight: bold; -fx-text-fill: #a9c2d8; }
+
+.history-notice { -fx-background-color: #fdf6e5; -fx-text-fill: #7d6222; -fx-background-radius: 12; -fx-border-color: #f0e0b8; -fx-border-radius: 12; -fx-padding: 13 16; -fx-font-size: 11; -fx-line-spacing: 3; }
+
+.toolbar-card { -fx-background-color: #ffffff; -fx-background-radius: 16; -fx-padding: 16 18; -fx-effect: dropshadow(gaussian, rgba(20,36,58,0.08), 18, 0, 0, 4); }
+.search-field { -fx-background-color: #f6f8fb; -fx-background-radius: 11; -fx-border-color: #dde4ec; -fx-border-radius: 11; -fx-padding: 14 16; -fx-font-size: 12.5; -fx-prompt-text-fill: #98a5b4; }
+.search-field:focused { -fx-border-color: #c8a45c; -fx-background-color: #ffffff; }
+.primary-button { -fx-background-color: linear-gradient(to bottom, #1c3e5d, #142c44); -fx-text-fill: #ffffff; -fx-background-radius: 11; -fx-padding: 14 22; }
+.primary-button:hover { -fx-background-color: linear-gradient(to bottom, #26557c, #1a3a56); }
+.ghost-button { -fx-background-color: #f1f4f8; -fx-text-fill: #33495f; -fx-background-radius: 11; -fx-padding: 14 18; }
+.ghost-button:hover { -fx-background-color: #e6ecf3; }
+.secondary-button { -fx-background-color: #fbf4e4; -fx-text-fill: #856a2c; -fx-background-radius: 11; -fx-padding: 11 16; }
+.secondary-button:hover { -fx-background-color: #f6ecd4; }
+.link-button { -fx-background-color: transparent; -fx-text-fill: #1c4a70; -fx-underline: true; -fx-padding: 2 0; -fx-font-size: 11; }
+.side-heading { -fx-font-size: 9; -fx-font-weight: bold; -fx-text-fill: #8b99a8; }
+.combo-box { -fx-background-color: #f6f8fb; -fx-border-color: #dde4ec; -fx-border-radius: 10; -fx-background-radius: 10; -fx-padding: 5 8; }
+.combo-box .list-cell { -fx-text-fill: #36495e; -fx-font-size: 11.5; }
+.filter-check { -fx-text-fill: #46596e; -fx-font-size: 11.5; }
+
+.section-title { -fx-font-size: 19; -fx-font-weight: bold; }
+.muted { -fx-text-fill: #76879a; -fx-font-size: 11; -fx-line-spacing: 3; }
+.footer { -fx-text-fill: #93a1b1; -fx-font-size: 9; -fx-line-spacing: 3; }
+
+.photo-panel { -fx-background-color: #ffffff; -fx-background-radius: 14; -fx-padding: 14; -fx-border-color: #e2e8f0; -fx-border-radius: 14; }
+
+/* ---------- product cards ---------- */
+.product-card { -fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-color: #e4eaf1; -fx-effect: dropshadow(gaussian, rgba(20,36,58,0.07), 14, 0, 0, 3); }
+.product-card:hover { -fx-border-color: #c8a45c; -fx-effect: dropshadow(gaussian, rgba(20,36,58,0.16), 22, 0, 0, 7); }
+.card-art { -fx-background-color: linear-gradient(to bottom, #f9fbfd, #eef2f7); -fx-background-radius: 16 16 0 0; -fx-border-color: transparent transparent #e8eef5 transparent; -fx-border-width: 0 0 1 0; }
+.chip-store { -fx-background-color: rgba(17,41,63,0.88); -fx-text-fill: #f4e3b8; -fx-font-size: 8.5; -fx-font-weight: bold; -fx-padding: 5 9; -fx-background-radius: 20; }
+.chip-tie { -fx-background-color: #e8f2ec; -fx-text-fill: #2f6b4f; -fx-font-size: 8.5; -fx-font-weight: bold; -fx-padding: 5 9; -fx-background-radius: 20; }
+.heart-button { -fx-background-color: rgba(255,255,255,0.94); -fx-background-radius: 30; -fx-text-fill: #b08e4c; -fx-font-size: 17; -fx-padding: 1 9; -fx-effect: dropshadow(gaussian, rgba(20,36,58,0.12), 8, 0, 0, 2); }
+.heart-button:hover { -fx-background-color: #fbf2dd; }
+.card-content { -fx-padding: 14 16 16 16; }
+.card-category { -fx-font-size: 8.5; -fx-font-weight: bold; -fx-text-fill: #97a4b3; }
+.product-name { -fx-font-size: 14.5; -fx-font-weight: bold; -fx-text-fill: #10243a; }
+.card-variant { -fx-font-size: 11; -fx-text-fill: #6f8092; }
+.store-dot.amazon { -fx-fill: #e07b39; }
+.store-dot.walmart { -fx-fill: #2f7fd6; }
+.store-dot.target { -fx-fill: #cc3b47; }
+.store-dot.sears { -fx-fill: #6b7f8f; }
+.offer-store { -fx-font-size: 11; -fx-text-fill: #5d7083; }
+.offer-price { -fx-font-size: 11.5; -fx-font-weight: bold; -fx-text-fill: #35495e; }
+.offer-lowest { -fx-text-fill: #1f7a51; }
+.badge-save { -fx-background-color: #eaf4ee; -fx-text-fill: #2b7150; -fx-font-size: 9.5; -fx-font-weight: bold; -fx-padding: 5 9; -fx-background-radius: 8; }
+.badge-tie { -fx-background-color: #eef1f6; -fx-text-fill: #5c6f83; -fx-font-size: 9.5; -fx-font-weight: bold; -fx-padding: 5 9; -fx-background-radius: 8; }
+.price { -fx-font-size: 23; -fx-font-weight: bold; -fx-text-fill: #10243a; }
+.card-caption { -fx-font-size: 9.5; -fx-text-fill: #8795a5; }
+.compare-button { -fx-background-color: #f1f4f8; -fx-text-fill: #1b3c59; -fx-background-radius: 10; -fx-padding: 11 12; -fx-font-size: 11.5; }
+.compare-button:hover { -fx-background-color: #1c3e5d; -fx-text-fill: #ffffff; }
+.pager-bar { -fx-padding: 4 0 0 0; }
+.pager-button { -fx-background-color: #ffffff; -fx-text-fill: #35495e; -fx-background-radius: 9; -fx-padding: 9 15; -fx-border-color: #dfe6ee; -fx-border-radius: 9; }
+.pager-button:hover { -fx-background-color: #f4f7fb; }
+.status { -fx-text-fill: #647688; -fx-text-alignment: center; -fx-max-width: 660; }
+
+/* ---------- comparison sheet ---------- */
+.dialog-scroll, .dialog-scroll > .viewport { -fx-background-color: #f7f9fc; }
+.comparison-dialog { -fx-background-color: #f7f9fc; }
+.dialog-hero { -fx-background-color: #ffffff; -fx-background-radius: 14; -fx-padding: 16; -fx-border-color: #e5ebf2; -fx-border-radius: 14; }
+.dialog-title { -fx-font-size: 22; -fx-font-weight: bold; -fx-text-fill: #10243a; }
+.eyebrow { -fx-font-size: 9; -fx-font-weight: bold; -fx-text-fill: #9a844e; }
+.kpi-box { -fx-background-color: #ffffff; -fx-background-radius: 13; -fx-padding: 13 15; -fx-border-color: #e5ebf2; -fx-border-radius: 13; }
+.kpi-box .kpi-caption { -fx-text-fill: #8b99a9; }
+.kpi-box .kpi-value { -fx-text-fill: #10243a; -fx-font-size: 20; }
+.kpi-good .kpi-value { -fx-text-fill: #1f7a51; }
+.kpi-warn .kpi-value { -fx-text-fill: #b57324; }
+.chart-card { -fx-background-color: #ffffff; -fx-background-radius: 14; -fx-padding: 16; -fx-border-color: #e5ebf2; -fx-border-radius: 14; }
+.chart-note { -fx-font-size: 9.5; -fx-text-fill: #8b99a9; -fx-line-spacing: 3; }
+.price-chart { -fx-background-color: transparent; }
+.price-chart .chart-plot-background { -fx-background-color: #f8fafc; }
+.price-chart .axis { -fx-tick-label-fill: #6d7f92; -fx-font-size: 10; }
+.price-chart .axis-label { -fx-text-fill: #55697d; -fx-font-size: 10; }
+.price-chart .chart-bar { -fx-bar-fill: #8aa4bd; -fx-background-radius: 6 6 0 0; }
+.price-chart .chart-bar.bar-lowest { -fx-bar-fill: #2f8f63; }
+.price-chart .chart-bar.bar-walmart { -fx-bar-fill: #4b8fd6; }
+.price-chart .chart-bar.bar-amazon { -fx-bar-fill: #e0894a; }
+.price-chart .chart-bar.bar-target { -fx-bar-fill: #d75c66; }
+.price-chart .chart-bar.bar-lowest.bar-walmart, .price-chart .chart-bar.bar-lowest.bar-amazon, .price-chart .chart-bar.bar-lowest.bar-target { -fx-bar-fill: #2f8f63; }
+.photo-cell { -fx-background-color: #ffffff; -fx-background-radius: 10; -fx-padding: 8; -fx-border-color: #e5ebf2; -fx-border-radius: 10; }
+
+/* ---------- tables ---------- */
+.table-view { -fx-background-color: #ffffff; -fx-border-color: #e5ebf2; -fx-border-radius: 12; -fx-background-radius: 12; }
+.table-view .column-header-background, .table-view .column-header, .table-view .filler { -fx-background-color: #f1f5f9; }
+.table-view .column-header { -fx-size: 38; -fx-border-color: transparent; }
+.table-view .column-header .label { -fx-text-fill: #6a7d91; -fx-font-size: 9.5; -fx-font-weight: bold; -fx-alignment: center-left; -fx-padding: 0 10; }
+.table-cell { -fx-padding: 12 10; -fx-border-color: transparent transparent #eef2f7 transparent; -fx-alignment: center-left; -fx-text-fill: #35495e; -fx-font-size: 11; }
+.table-row-cell { -fx-background-color: white; }
+.table-row-cell:odd { -fx-background-color: #fbfcfe; }
+.table-row-cell:selected { -fx-background-color: #e9eff6; }
+.text-area { -fx-background-radius: 10; -fx-border-color: #e5ebf2; -fx-border-radius: 10; -fx-font-size: 11; }
+.text-area .content { -fx-background-color: #fbfcfe; }

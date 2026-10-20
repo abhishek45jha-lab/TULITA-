@@ -1,0 +1,15 @@
+# Copy to application.properties next to pom.xml; never commit real credentials.
+# catalog = curated photo-enabled genuine US retailer comparisons (default).
+# multistore = previous Amazon India + Flipkart + Myntra historical datasets.
+# dataset = previous Flipkart-only historical catalog.
+# demo = fictional 20-product comparison. mysql = same fictional seed from MySQL.
+app.mode=catalog
+# csv or mysql, shared by historical modes. No automatic fallback.
+dataset.storage=csv
+dataset.csv=datasets/flipkart_com-ecommerce_sample.csv
+# Three-store ZIP defaults to datasets/multistore/catalog.csv.zip.
+# Optional path override: TULITA_MULTI_DATASET_PATH environment variable.
+db.url=jdbc:mysql://localhost:3306/tulita?connectTimeout=5000&socketTimeout=60000&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true&useSSL=false
+db.user=tulita_app
+db.password=
+# SSL disabled only for local student development. Remote DBs require TLS.
