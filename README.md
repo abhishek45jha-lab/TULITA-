@@ -54,13 +54,12 @@ Windows PowerShell:
 ```powershell
 $env:TULITA_MODE = 'budget'
 $env:TULITA_DATA_SOURCE = 'csv'
-mvn clean test
 mvn javafx:run
 ```
 
 Or double-click **`run-budget.bat`**. By default the three-store ZIP (`datasets/multistore/catalog.csv.zip`) is used because it contains the useful laptop/keyboard/mouse/headphone rows. Set `TULITA_BUDGET_SOURCE=flipkart` to force the single Flipkart CSV, or `TULITA_DATA_SOURCE=mysql` to use an already imported MySQL catalogue. If the source cannot be read, the screen shows the path/setup error rather than demo products.
 
-The tests cover budget ceilings, mandatory/optional categories, quantities, both modes, brand preference, infeasible baskets, strict classification (including Hindi product words and accessory/bundle rejection), spec extraction, CSV escaping and a smoke test against the real bundled ZIP. Run them with `mvn test` or, without Maven, reflectively with `tulita.budget.BudgetTestMain`.
+The tests cover budget ceilings, mandatory/optional categories, quantities, both modes, brand preference, infeasible baskets, strict classification (including Hindi product words and accessory/bundle rejection), spec extraction, CSV escaping and a smoke test against the real bundled ZIP. Run only the budget tests with `mvn -Dtest=BudgetOptimizerTest,BudgetClassifierTest,BudgetCsvExporterTest,BudgetDataLoaderTest test`, or without Maven by invoking `tulita.budget.BudgetTestMain` reflectively.
 
 ## 1. Requirements
 - **64-bit JDK 21 recommended**; source targets Java 17. Linux JDK 21 was tested; Windows/JDK 17 runtime were not separately certified.
