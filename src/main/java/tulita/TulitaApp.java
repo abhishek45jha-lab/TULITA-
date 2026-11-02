@@ -23,6 +23,11 @@ public final class TulitaApp extends Application {
                 var catalogView=new tulita.photocatalog.view.PhotoCatalogView();
                 var c=new tulita.photocatalog.PhotoCatalogController(catalogView,stage,url->getHostServices().showDocument(url));
                 controller=c;view=catalogView;load=c::load;
+            } else if(config.mode().equals("budget")) {
+                var budgetView=new tulita.budget.view.BudgetOptimizerView();
+                var c=new tulita.budget.BudgetOptimizerController(budgetView,
+                        tulita.budget.service.BudgetDataLoader.defaultMulti());
+                controller=c; view=budgetView; load=c::load;
             } else if(config.mode().equals("dataset") || config.mode().equals("multistore")) {
                 DatasetView datasetView=new DatasetView(config.mode().equals("multistore"));
                 DatasetController c=new DatasetController(datasetView,stage,url->getHostServices().showDocument(url),config.mode().equals("multistore"));
@@ -36,7 +41,7 @@ public final class TulitaApp extends Application {
             scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/styles/tulita.css")).toExternalForm());
             stage.setTitle("Tulita — Smart E-Commerce Price Comparison"); stage.setMinWidth(1060); stage.setMinHeight(700); stage.setScene(scene); stage.show(); load.run();
         } catch(Exception e) {
-            Alert error=new Alert(Alert.AlertType.ERROR,"Configuration could not be read. Check application.properties and TULITA_MODE (catalog, multistore, dataset, demo or mysql).");
+            Alert error=new Alert(Alert.AlertType.ERROR,"Configuration could not be read. Check application.properties and TULITA_MODE (budget, catalog, multistore, dataset, demo or mysql).");
             error.setHeaderText("Tulita setup required"); error.showAndWait(); javafx.application.Platform.exit();
         }
     }

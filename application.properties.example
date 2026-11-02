@@ -1,7 +1,9 @@
 # Copy to application.properties next to pom.xml; never commit real credentials.
 # catalog = curated photo-enabled genuine US retailer comparisons (default).
+# budget = Intelligent Budget Optimizer using the same historical catalogue (INR).
 # multistore = previous Amazon India + Flipkart + Myntra historical datasets.
 # dataset = previous Flipkart-only historical catalog.
+# TULITA_BUDGET_SOURCE=multistore|flipkart selects the budget planner source; default prefers the bundled ZIP.
 # demo = fictional 20-product comparison. mysql = same fictional seed from MySQL.
 app.mode=catalog
 # csv or mysql, shared by historical modes. No automatic fallback.

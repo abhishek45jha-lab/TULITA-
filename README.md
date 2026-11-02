@@ -31,6 +31,37 @@ The selected retailers are **Amazon.com, Walmart and Target**. Sears is supporte
 
 **Ratings are not available in this dataset** and are never invented: cards show no stars and the comparison table displays “Not in source”. **A price-over-time graph is not possible either**, because each retailer supplies one undated amount — the app charts the genuine recorded price per retailer instead. Details: [UI, charts and ratings](docs/UI_AND_CHARTS.md).
 
+## Intelligent Budget Optimizer (INR)
+
+Tulita now includes a fifth desktop mode, **`budget`**, that plans a complete laptop/peripheral basket from the same bundled historical catalogue. It does not scrape, call a price API, or invent a product, discount or availability claim.
+
+- **Inputs:** INR budget, any combination of Laptops / Keyboards / Mice / Headphones, each with a 1–3 unit quantity and a mandatory/optional flag, plus optional preferred brands.
+- **Modes:** **Best Value** maximises a transparent 0–100 utility (65% specification quality, 20% quality-per-rupee value, 15% brand preference) under the budget; **Lowest Cost** takes the cheapest recorded units that satisfy every mandatory category.
+- **Guarantees:** mandatory categories are never dropped, total cost never exceeds the budget, quantities multiply the recorded unit price with no invented bulk discount, and an impossible basket is reported explicitly instead of being silently trimmed.
+- **Dashboard:** selected products with unit and line totals, remaining budget, utilisation, category-wise spend, per-product quality/value/reasons, data warnings and up to four alternative combinations. A budget slider supports what-if recalculation, and the plan exports to CSV (summary, products, reasons, alternatives).
+- **Data honesty:** all prices are historical observations from the bundled catalogue. Delivery, tax, condition guarantees and current availability are unknown.
+
+### Run the budget optimizer
+
+Linux/macOS (the exact command):
+
+```bash
+TULITA_MODE=budget TULITA_DATA_SOURCE=csv mvn javafx:run
+```
+
+Windows PowerShell:
+
+```powershell
+$env:TULITA_MODE = 'budget'
+$env:TULITA_DATA_SOURCE = 'csv'
+mvn clean test
+mvn javafx:run
+```
+
+Or double-click **`run-budget.bat`**. By default the three-store ZIP (`datasets/multistore/catalog.csv.zip`) is used because it contains the useful laptop/keyboard/mouse/headphone rows. Set `TULITA_BUDGET_SOURCE=flipkart` to force the single Flipkart CSV, or `TULITA_DATA_SOURCE=mysql` to use an already imported MySQL catalogue. If the source cannot be read, the screen shows the path/setup error rather than demo products.
+
+The tests cover budget ceilings, mandatory/optional categories, quantities, both modes, brand preference, infeasible baskets, strict classification (including Hindi product words and accessory/bundle rejection), spec extraction, CSV escaping and a smoke test against the real bundled ZIP. Run them with `mvn test` or, without Maven, reflectively with `tulita.budget.BudgetTestMain`.
+
 ## 1. Requirements
 - **64-bit JDK 21 recommended**; source targets Java 17. Linux JDK 21 was tested; Windows/JDK 17 runtime were not separately certified.
 - **Maven 3.9+** on PATH.
