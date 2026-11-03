@@ -1,0 +1,82 @@
+{
+ "edition": "Photo-enabled genuine US retailer comparisons",
+ "verified_local_date": "2026-11-02",
+ "curated_products": 79,
+ "genuine_priced_observations": 161,
+ "cached_photos": 237,
+ "three_store_products": 3,
+ "retailers_in_curated_subset": [
+  "Amazon",
+  "Walmart",
+  "Target"
+ ],
+ "full_suite": {
+  "tests": 133,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "note": "116 default tests + PhotoVisionTest, PhotoCatalogUiTest and BudgetOptimizerUiTest run separately under Xvfb with the verified model; 8 optional tests (5 MySQL, 3 legacy UI) not re-run in this session"
+ },
+ "default_suite": {
+  "tests": 133,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 11
+ },
+ "actual_model_sha256": "583fd1110a514667812fee7d684952aaf82a99b959760c8d7dca7e0ab9839299",
+ "model_bytes": 89117001,
+ "model_bundled": false,
+ "held_out_store_photo_checks": {
+  "reynolds": "rank 1",
+  "hamilton": "rank 1",
+  "ovente": "rank 1"
+ },
+ "limits": [
+  "No physical webcam success tested",
+  "No native Windows runtime test",
+  "No general camera recognition accuracy benchmark",
+  "No live prices or exact price capture dates",
+  "USD inferred from US-store context; no original currency column",
+  "Photo search tested on the enlarged catalog: held-out retailer images still rank the correct product first for the three checked groups, but this is a small functional check, not an accuracy benchmark"
+ ],
+ "artifacts_sha256": {
+  "datasets/promap/catalog.json": "a8b933fed9b8076f01845786635a22af41f940046ca12078925cef198ea23931",
+  "datasets/promap/MANIFEST.json": "7c6b12decbfb0c303c00fa06fd454cddba58d2811aa54a609cac300de30f727c",
+  "datasets/promap/CURATION_REPORT.json": "2923c4454e366378e9073d1080c62307ad8d9a87d2b9c67b65af25dc43f4c8ab",
+  "src/main/resources/styles/tulita.css": "1df09ac1a92a5e08df9db4e333167b7e928c39a74c136eb137c69fd112809d4c"
+ },
+ "actual_maven_javafx_launch": "Passed: native Tulita window and the 79-product catalog observed under Xvfb",
+ "ui_redesign": "Verified under Xvfb: navy rail, KPI hero, per-retailer prices, spread badge, comparison chart for Walmart/Amazon/Target",
+ "ratings": "Not available in the four pinned CSVs; no rating column and no rating specification key. Displayed as Not in source rather than invented.",
+ "price_history": "One undated observation per retailer; recorded-price-by-retailer chart only. No temporal trend is fabricated.",
+ "budget_optimizer": {
+  "module": "tulita.budget \u2014 Intelligent Budget Optimizer",
+  "algorithm": "Pareto dynamic programming (exact for the stated model), integer cents, delivery once per retailer, state cap 20000 with reported fallback",
+  "modes": [
+   "Best Value",
+   "Lowest Cost",
+   "Best Specifications",
+   "Balanced"
+  ],
+  "tests": {
+   "BudgetOptimizerTest": 28,
+   "BudgetOptimizerUiTest": 1,
+   "all_passed": true
+  },
+  "new_dependencies": 0,
+  "new_database_tables": 0,
+  "saved_plans": "~/.tulita/budget-recommendations.json (JSON, catalogue files untouched)",
+  "export": "CSV via Apache Commons CSV; printable output through JavaFX PrinterJob (a PDF printer in the OS dialog yields a PDF)",
+  "limits": [
+   "one product per category repeated by quantity",
+   "prices are historical observations, not live",
+   "delivery charges and discounts are user-supplied assumptions",
+   "warranty/specification criteria are dropped and disclosed when the catalogue has no data"
+  ],
+  "per_line_charges": "LineCharges: delivery apportioned within each retailer's lines, discount across all lines, remainder to the largest line, so the per-line final costs sum to the basket total to the cent",
+  "what_if": "Explore Alternatives: complete alternative requests (budget +/-10%, each other mode, optional category, one less unit, any brand, relax a minimum spec, drop charges), re-optimised off the UI thread, with a signed change report (total, remaining, score, item count, swapped products)",
+  "saved_plan_viewer": "View opens the stored plan (mode, timestamp, totals, every line, recorded limitations)",
+  "currency": "budget can be entered in INR: the shopper supplies the rate (Tulita never invents one), the optimiser still runs in the recorded catalogue currency, and every displayed amount is labelled with the assumption; an INR-priced catalogue needs no code change; a mismatched currency is refused, never converted",
+  "score_display": "plain average per item plus the weighted score the active mode maximises"
+ }
+}

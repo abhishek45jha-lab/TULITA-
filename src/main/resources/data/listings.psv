@@ -1,0 +1,55 @@
+# id|productId|store|title|model|variant|price|mrp|rating|delivery (blank = unknown)|estimate|available|search URL
+1|1|Amazon|Sony WH-CH720N|WH-CH720N|Black / standard|8490|14990|4.1|0|2–4 days|true|https://www.amazon.in/s?k=Sony%20WH-CH720N%20Black%20/%20standard
+2|1|Flipkart|Sony WH CH720N|WH-CH720N|Black / standard|8450|14990|4.2|79|2–4 days|true|https://www.flipkart.com/search?q=Sony%20WH-CH720N%20Black%20/%20standard
+3|2|Amazon|Apple iPhone 15|iPhone 15|128GB / Black|58149|69900|4.2|0|2–4 days|true|https://www.amazon.in/s?k=Apple%20iPhone%2015%20128GB%20/%20Black
+4|2|Flipkart|Apple iPhone 15|iPhone 15|128GB / Black|57999|69900|4.3|0|2–4 days|true|https://www.flipkart.com/search?q=Apple%20iPhone%2015%20128GB%20/%20Black
+5|3|Amazon|Samsung Galaxy A35|Galaxy A35|128GB / Navy|25999|33999|4.3|0|2–4 days|true|https://www.amazon.in/s?k=Samsung%20Galaxy%20A35%20128GB%20/%20Navy
+6|3|Flipkart|Samsung Galaxy A35|Galaxy A35|128GB / Navy|25959|33999|4.4|79|2–4 days|true|https://www.flipkart.com/search?q=Samsung%20Galaxy%20A35%20128GB%20/%20Navy
+7|4|Amazon|boAt Airdopes 141|Airdopes 141|Black / standard|1149|4490|4.4|0|2–4 days|true|https://www.amazon.in/s?k=boAt%20Airdopes%20141%20Black%20/%20standard
+8|4|Flipkart|boAt Airdopes 141|Airdopes 141|Black / standard|999|4490|4.5|0|2–4 days|false|https://www.flipkart.com/search?q=boAt%20Airdopes%20141%20Black%20/%20standard
+9|5|Amazon|Logitech Pebble M350|Pebble M350|White / standard|1495|2495|4.5|0|2–4 days|true|https://www.amazon.in/s?k=Logitech%20Pebble%20M350%20White%20/%20standard
+10|5|Flipkart|Logitech Pebble M350|Pebble M350|White / standard|1455|2495|4.6|79|2–4 days|true|https://www.flipkart.com/search?q=Logitech%20Pebble%20M350%20White%20/%20standard
+11|6|Amazon|JBL Flip 6|Flip 6|Blue / standard|9149|14999|4.6|0|2–4 days|true|https://www.amazon.in/s?k=JBL%20Flip%206%20Blue%20/%20standard
+12|6|Flipkart|JBL Flip 6|Flip 6|Blue / standard|8999|14999|4.0|0|2–4 days|true|https://www.flipkart.com/search?q=JBL%20Flip%206%20Blue%20/%20standard
+13|7|Amazon|Nike Air Zoom Pegasus 40|Pegasus 40|UK 9 / White|7495|11995|4.0|0|2–4 days|true|https://www.amazon.in/s?k=Nike%20Air%20Zoom%20Pegasus%2040%20UK%209%20/%20White
+14|7|Flipkart|Nike Pegasus 40 Running Shoes|Pegasus 40|UK 9 / White|7455|11995|4.1|79|2–4 days|true|https://www.flipkart.com/search?q=Nike%20Air%20Zoom%20Pegasus%2040%20UK%209%20/%20White
+15|7|Myntra|Nike Pegasus 40 Shoes|Pegasus 40|UK 9 / White|7585|11995|4.2|0|3–5 days|true|https://www.myntra.com/nike-air-zoom-pegasus-40
+16|8|Amazon|Adidas Runfalcon 3|Runfalcon 3|UK 8 / Black|3149|5999|4.1|0|2–4 days|true|https://www.amazon.in/s?k=Adidas%20Runfalcon%203%20UK%208%20/%20Black
+17|8|Flipkart|Adidas Runfalcon 3 for Men|Runfalcon 3|UK 8 / Black|2999|5999|4.2|0|2–4 days|true|https://www.flipkart.com/search?q=Adidas%20Runfalcon%203%20UK%208%20/%20Black
+18|8|Myntra|Adidas Runfalcon 3|Runfalcon 3|UK 8 / Black|2929|5999|4.3|0|3–5 days|true|https://www.myntra.com/adidas-runfalcon-3
+19|9|Amazon|Puma Smash v2|Smash v2|UK 9 / White|2399|4999|4.2|0|2–4 days|true|https://www.amazon.in/s?k=Puma%20Smash%20v2%20UK%209%20/%20White
+20|9|Flipkart|Puma Smash v2 for Men|Smash v2|UK 9 / White|2359|4999|4.3|79|2–4 days|true|https://www.flipkart.com/search?q=Puma%20Smash%20v2%20UK%209%20/%20White
+21|9|Myntra|Puma Smash v2|Smash v2|UK 9 / White|2489|4999|4.4|0|3–5 days|true|https://www.myntra.com/puma-smash-v2
+22|10|Amazon|Reebok Energen Lite|Energen Lite|UK 8 / Grey|2749|4999|4.3|0|2–4 days|true|https://www.amazon.in/s?k=Reebok%20Energen%20Lite%20UK%208%20/%20Grey
+23|10|Flipkart|Reebok Energen Lite for Men|Energen Lite|UK 8 / Grey|2599|4999|4.4|0|2–4 days|true|https://www.flipkart.com/search?q=Reebok%20Energen%20Lite%20UK%208%20/%20Grey
+24|10|Myntra|Reebok Energen Lite|Energen Lite|UK 8 / Grey|2529|4999|4.5|0|3–5 days|true|https://www.myntra.com/reebok-energen-lite
+25|11|Amazon|Converse Chuck Taylor|Chuck Taylor|UK 8 / Black|3999|5499|4.4|0|2–4 days|true|https://www.amazon.in/s?k=Converse%20Chuck%20Taylor%20UK%208%20/%20Black
+26|11|Flipkart|Converse Chuck Taylor for Men|Chuck Taylor|UK 8 / Black|3959|5499|4.5|79|2–4 days|true|https://www.flipkart.com/search?q=Converse%20Chuck%20Taylor%20UK%208%20/%20Black
+27|11|Myntra|Converse Chuck Taylor|Chuck Taylor|UK 8 / Black|4089|5499|4.6|0|3–5 days|true|https://www.myntra.com/converse-chuck-taylor
+28|12|Amazon|Levis 511 Slim Jeans|511 Slim|32 / Indigo|2049|3499|4.5|0|2–4 days|true|https://www.amazon.in/s?k=Levis%20511%20Slim%20Jeans%2032%20/%20Indigo
+29|12|Flipkart|Levis 511 Slim Jeans for Men|511 Slim|32 / Indigo|1899|3499|4.6|0|2–4 days|true|https://www.flipkart.com/search?q=Levis%20511%20Slim%20Jeans%2032%20/%20Indigo
+30|12|Myntra|Levis 511 Slim Jeans|511 Slim|32 / Indigo|1829|3499|4.0|0|3–5 days|true|https://www.myntra.com/levis-511-slim-jeans
+31|13|Amazon|Uniqlo Crew Neck Tee|Crew Neck|M / Olive|990|1490|4.6|0|2–4 days|true|https://www.amazon.in/s?k=Uniqlo%20Crew%20Neck%20Tee%20M%20/%20Olive
+32|13|Flipkart|Uniqlo Crew Neck Tee for Men|Crew Neck|M / Olive|950|1490|4.0|79|2–4 days|true|https://www.flipkart.com/search?q=Uniqlo%20Crew%20Neck%20Tee%20M%20/%20Olive
+33|13|Myntra|Uniqlo Crew Neck Tee|Crew Neck|M / Olive|1080|1490|4.1|0|3–5 days|true|https://www.myntra.com/uniqlo-crew-neck-tee
+34|14|Amazon|US Polo Pique Shirt|Pique Shirt|L / Navy|1549|2499|4.0|0|2–4 days|true|https://www.amazon.in/s?k=US%20Polo%20Pique%20Shirt%20L%20/%20Navy
+35|14|Flipkart|US Polo Pique Shirt for Men|Pique Shirt|L / Navy|1399|2499|4.1|0|2–4 days|true|https://www.flipkart.com/search?q=US%20Polo%20Pique%20Shirt%20L%20/%20Navy
+36|14|Myntra|US Polo Pique Shirt|Pique Shirt|L / Navy|1329|2499|4.2|0|3–5 days|true|https://www.myntra.com/us-polo-pique-shirt
+37|15|Amazon|Hanes Cotton Hoodie|Cotton Hoodie|M / Sand|1799|2999|4.1|0|2–4 days|true|https://www.amazon.in/s?k=Hanes%20Cotton%20Hoodie%20M%20/%20Sand
+38|15|Flipkart|Hanes Cotton Hoodie for Men|Cotton Hoodie|M / Sand|1759|2999|4.2|79|2–4 days|true|https://www.flipkart.com/search?q=Hanes%20Cotton%20Hoodie%20M%20/%20Sand
+39|15|Myntra|Hanes Cotton Hoodie|Cotton Hoodie|M / Sand|1889|2999|4.3|0|3–5 days|true|https://www.myntra.com/hanes-cotton-hoodie
+40|16|Amazon|Allen Solly Oxford Shirt|Oxford Shirt|40 / White|1449|2499|4.2|0|2–4 days|true|https://www.amazon.in/s?k=Allen%20Solly%20Oxford%20Shirt%2040%20/%20White
+41|16|Flipkart|Allen Solly Oxford Shirt for Men|Oxford Shirt|40 / White|1299|2499|4.3|0|2–4 days|true|https://www.flipkart.com/search?q=Allen%20Solly%20Oxford%20Shirt%2040%20/%20White
+42|16|Myntra|Allen Solly Oxford Shirt|Oxford Shirt|40 / White|1229|2499|4.4|0|3–5 days|true|https://www.myntra.com/allen-solly-oxford-shirt
+43|17|Amazon|Casio Vintage A168|Vintage A168|Silver / standard|2695|3295|4.3|0|2–4 days|true|https://www.amazon.in/s?k=Casio%20Vintage%20A168%20Silver%20/%20standard
+44|17|Flipkart|Casio Vintage A168|Vintage A168|Silver / standard|2655|3295|4.4|79|2–4 days|true|https://www.flipkart.com/search?q=Casio%20Vintage%20A168%20Silver%20/%20standard
+45|17|Myntra|Casio Vintage A168|Vintage A168|Silver / standard|2785|3295|4.5|0|3–5 days|true|https://www.myntra.com/casio-vintage-a168
+46|18|Amazon|Fastrack Urban Backpack|Urban Backpack|25L / Olive|1445|2495|4.4|0|2–4 days|true|https://www.amazon.in/s?k=Fastrack%20Urban%20Backpack%2025L%20/%20Olive
+47|18|Flipkart|Fastrack Urban Backpack|Urban Backpack|25L / Olive|1295|2495|4.5|0|2–4 days|true|https://www.flipkart.com/search?q=Fastrack%20Urban%20Backpack%2025L%20/%20Olive
+48|18|Myntra|Fastrack Urban Backpack|Urban Backpack|25L / Olive|1225|2495|4.6|0|3–5 days|true|https://www.myntra.com/fastrack-urban-backpack
+49|19|Amazon|Ray Ban Wayfarer Classic|Wayfarer Classic|52mm / Black|7490|10990|4.5|0|2–4 days|true|https://www.amazon.in/s?k=Ray%20Ban%20Wayfarer%20Classic%2052mm%20/%20Black
+50|19|Flipkart|Ray Ban Wayfarer Classic|Wayfarer Classic|52mm / Black|7450|10990|4.6|79|2–4 days|true|https://www.flipkart.com/search?q=Ray%20Ban%20Wayfarer%20Classic%2052mm%20/%20Black
+51|19|Myntra|Ray Ban Wayfarer Classic|Wayfarer Classic|52mm / Black|7580|10990|4.0||3–5 days|true|https://www.myntra.com/ray-ban-wayfarer-classic
+52|20|Amazon|Titan Karishma Analog|Karishma Analog|Brown / standard|2345|2995|4.6|0|2–4 days|true|https://www.amazon.in/s?k=Titan%20Karishma%20Analog%20Brown%20/%20standard
+53|20|Flipkart|Titan Karishma Analog|Karishma Analog|Brown / standard|2195|2995|4.0|0|2–4 days|true|https://www.flipkart.com/search?q=Titan%20Karishma%20Analog%20Brown%20/%20standard
+54|20|Myntra|Titan Karishma Analog|Karishma Analog|Brown / standard|2125|2995|4.1|0|3–5 days|true|https://www.myntra.com/titan-karishma-analog

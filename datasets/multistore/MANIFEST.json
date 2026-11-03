@@ -1,0 +1,16 @@
+{
+  "records": 52491,
+  "stores": {
+    "Flipkart": 20000,
+    "Amazon": 20000,
+    "Myntra": 12491
+  },
+  "csv_sha256": "f27498caf88eb37360c807743b9fd05b52fcbeeb2c168e9e3af581adf82df8d0",
+  "amazon_selection": "20,000 unique ASINs. Prefer titles sharing alphanumeric tokens with the other catalogs, then recognised-title-prefix brand buckets (max 350 per brand), then a deterministic seed-17 reservoir of the original source. Selection is not evidence that any products match.",
+  "transforms": "Only reported INR prices; absent values remain blank. Description excerpts limited to 2000 characters, Flipkart raw specification excerpts to 4000. No prices invented. Every normalized row retains source licence/link. No shipping data supplied. Myntra per-row dates, MRP and ratings absent. Amazon per-row date, variant and brand fields absent; explicit recognised brand title prefixes recovered.",
+  "input_sha256": {
+    "flipkart_com-ecommerce_sample.csv": "56f8f699c9e847356666c2eab3c3ab1244340f6a98ad08e39ea2199ebe993ad1",
+    "amazon2023.zip": "239fc37b4ad7ca84178b190ee3739e7716a22b4eefea73ef0081ae0d98acaf60",
+    "myntra-fashion.zip": "e639ddbe2462ab1ae5f3b8f6ca3ffb8c9de20351041697effafbe75430f5dc5a"
+  }
+}

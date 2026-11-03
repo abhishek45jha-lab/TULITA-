@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/kackamac/Product-Mapping-Datasets",
+  "source_commit": "346d62f8ec4d229db6c437d4c2d9101b02e1a8da",
+  "retrieved_on": "2026-10-19",
+  "currency_note": "USD from US retailer listing context; original numerical prices preserved without conversion. The source CSV has no currency column.",
+  "capture_date": "Not provided per observation. Repository dataset release is not a price capture date.",
+  "source_files_sha256": {
+    "promapmulti_sears-test_data.csv": "c07285453050caf661768c027605805a639d52c48a60cb425f404f4ece2bd5bc",
+    "promapmulti-test_data.csv": "dc8ac88d888325a60c7a1f51cd03ffcd6e2faf9a669abed11980f5affed8d0fd",
+    "promapmulti_target-test_data.csv": "f2a29058bec8600d01c6869ba32f9fdef701f5c3602dd55a3aca328d1612308e",
+    "promapmulti-train_data.csv": "d96419dcf38f83a0cd9867846cc0e74f4eab35821496913e8b100476a3bb4a94"
+  },
+  "products": 79,
+  "offers": 161,
+  "three_store_products": 3,
+  "photos": 237,
+  "image_transform": "Original dataset image URLs downloaded; converted to RGB JPEG, maximum edge 640px, quality 88. Original URLs and cached image SHA retained.",
+  "image_failures": [],
+  "curation": "Reviewed subset, not automatic acceptance of match=1. Each accepted pair was checked against both listings for model, colour, size, pack and condition; false matches found in the same source are listed in CURATION_REPORT.json. Sears rows that contradict their own model fields were not included. No simulated prices. Source review is not independent retailer verification."
+}

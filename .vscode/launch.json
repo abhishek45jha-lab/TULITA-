@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Tulita (catalogue mode)",
+      "request": "launch",
+      "mainClass": "tulita.Launcher",
+      "projectName": "tulita",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "env": { "TULITA_MODE": "catalog", "TULITA_DATA_SOURCE": "csv" }
+    },
+    {
+      "type": "java",
+      "name": "Tulita (legacy demo mode, needs MySQL)",
+      "request": "launch",
+      "mainClass": "tulita.Launcher",
+      "projectName": "tulita",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "env": { "TULITA_MODE": "demo" }
+    }
+  ]
+}

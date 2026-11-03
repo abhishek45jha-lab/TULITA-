@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tulita: run app (catalogue mode)",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["-q", "javafx:run"],
+      "options": { "env": { "TULITA_MODE": "catalog", "TULITA_DATA_SOURCE": "csv" } },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Tulita: run all tests",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["clean", "test"],
+      "group": "test",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Tulita: budget optimizer tests",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["-q", "test", "-Dtest=BudgetOptimizerTest"],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Tulita: build jar",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["-q", "clean", "package", "-DskipTests"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Tulita: package desktop app",
+      "type": "shell",
+      "command": "bash",
+      "args": ["package-app.sh"],
+      "problemMatcher": []
+    }
+  ]
+}

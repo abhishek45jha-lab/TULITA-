@@ -1,0 +1,26 @@
+{
+  "records": {
+    "Flipkart": 20000,
+    "Amazon": 20000,
+    "Myntra": 12491
+  },
+  "normalized_title_intersection_all_three": 0,
+  "model_like_token_intersection_all_three": 0,
+  "reviewed_links_bundled": 0,
+  "reviewed_three_store_groups_bundled": 0,
+  "test_results_all_flags": {
+    "tests": 85,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "catalog_zip_sha256": "e363742673db3620b34a10039aff4bc00fe985aa85f84f23492da8a9ecbb9033",
+  "caveat": "No reliable three-way group established; this token audit is not proof that latent overlap is impossible. Test fixtures are not genuine data.",
+  "catalog_csv_sha256": "f27498caf88eb37360c807743b9fd05b52fcbeeb2c168e9e3af581adf82df8d0",
+  "test_results_default": {
+    "tests": 85,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 7
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "accepted": [
+    {
+      "id": "victor-glue-traps",
+      "sourceRow": 76,
+      "sourceFile": "promapmulti-test_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "fitbit-versa-2",
+      "sourceRow": 148,
+      "sourceFile": "promapmulti-test_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "sentrysafe-p005c",
+      "sourceRow": 152,
+      "sourceFile": "promapmulti-test_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "franklin-dartboard",
+      "sourceRow": 155,
+      "sourceFile": "promapmulti-test_data.csv",
+      "stores": [
+        "Amazon",
+        "Target",
+        "Walmart"
+      ],
+      "offers": 3,
+      "photos": 5
+    },
+    {
+      "id": "trailmaker-daisy-backpack",
+      "sourceRow": 209,
+      "sourceFile": "promapmulti-test_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "geek-chef-gto10pb",
+      "sourceRow": 43,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "nutribullet-combo",
+      "sourceRow": 57,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "simple-modern-lunch-tote",
+      "sourceRow": 177,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "suzuki-folkmaster",
+      "sourceRow": 218,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "lego-jurassic-75938",
+      "sourceRow": 220,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "xdp-ground-anchor",
+      "sourceRow": 229,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "best-choice-laser-tag",
+      "sourceRow": 234,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "nkok-sonic-rc",
+      "sourceRow": 235,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "kids-adventure-blocks",
+      "sourceRow": 238,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "lego-bookshop-10270",
+      "sourceRow": 244,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "melissa-doug-puzzle-rack",
+      "sourceRow": 247,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "lego-mario-71371",
+      "sourceRow": 249,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "marine-aquarium-kit",
+      "sourceRow": 254,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 2
+    },
+    {
+      "id": "giant-called-tiny",
+      "sourceRow": 275,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 1
+    },
+    {
+      "id": "affresh-dishwasher-cleaner",
+      "sourceRow": 276,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "tork-tf6830-tissue",
+      "sourceRow": 288,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "glade-solid-air-freshener",
+      "sourceRow": 306,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "keepow-mop-pads",
+      "sourceRow": 313,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "mrs-meyers-booster",
+      "sourceRow": 324,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "tide-pods-spring-meadow",
+      "sourceRow": 356,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "weesta-24qt-air-fryer",
+      "sourceRow": 367,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "chefwave-immersion-blender",
+      "sourceRow": 386,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "costway-twin-tub",
+      "sourceRow": 395,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "elite-gourmet-immersion",
+      "sourceRow": 410,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "frigidaire-ffmv1846vb",
+      "sourceRow": 424,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "kitchenaid-kco211bm",
+      "sourceRow": 448,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "rca-rdw3208",
+      "sourceRow": 504,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "vitamix-a2300",
+      "sourceRow": 517,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "vitamix-750",
+      "sourceRow": 519,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "minka-aire-f683l",
+      "sourceRow": 531,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "papillon-love-wall-art",
+      "sourceRow": 572,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "surface-laptop-3",
+      "sourceRow": 661,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "cap-spring-collars",
+      "sourceRow": 736,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "reef-tourer-mask-snorkel",
+      "sourceRow": 746,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "nutrichef-vacuum-sealer",
+      "sourceRow": 757,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "cap-dumbbell-2lb",
+      "sourceRow": 766,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "franklin-batting-tee",
+      "sourceRow": 769,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "supershieldz-galaxy-j7",
+      "sourceRow": 800,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "child-to-cherish-suitcase",
+      "sourceRow": 891,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 2
+    },
+    {
+      "id": "world-traveler-rose-gold-set",
+      "sourceRow": 912,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "american-tourister-belle-voyage",
+      "sourceRow": 915,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "narwey-spirit-duffel",
+      "sourceRow": 925,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "nature-made-ashwagandha",
+      "sourceRow": 982,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "kiss-my-keto-strips",
+      "sourceRow": 990,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "dagamma-oximeter",
+      "sourceRow": 991,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "fit-and-fresh-ice-packs",
+      "sourceRow": 1002,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "paper-junkie-notebooks",
+      "sourceRow": 1074,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "sassy-teethe-twirl",
+      "sourceRow": 1120,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "learning-resources-campout",
+      "sourceRow": 1161,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "human-body-activity-book",
+      "sourceRow": 1190,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 2
+    },
+    {
+      "id": "crayola-globbles",
+      "sourceRow": 1199,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "exo-terra-mealworms",
+      "sourceRow": 1226,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 2
+    },
+    {
+      "id": "living-world-perch-swing",
+      "sourceRow": 1244,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "minties-dental-bones",
+      "sourceRow": 1250,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "pedigree-small-dog-food",
+      "sourceRow": 1255,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "prevue-bird-cage-kit",
+      "sourceRow": 1258,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    },
+    {
+      "id": "pride-pet-door",
+      "sourceRow": 1259,
+      "sourceFile": "promapmulti-train_data.csv",
+      "stores": [
+        "Amazon",
+        "Walmart"
+      ],
+      "offers": 2,
+      "photos": 3
+    }
+  ],
+  "rejected": {
+    "Ziploc two-gallon 12 ct": "no model, size, colour or count evidence on either listing",
+    "Duracell AAA 24/BX": "Amazon model 4330241548 does not identify the same pack, no count on the Amazon side",
+    "Emeril Lagasse Power AirFryer 360": "source model strings conflict between the two listings",
+    "Farberware FMO11AHTBKM / FMO07AHTBKJ": "the two listings are 1.1 and 0.7 cu ft microwaves",
+    "Hamilton Beach 51101BV / 51101B": "model suffix differs between 51101BV, 51101B and Target 51101RV",
+    "Instant Vortex Plus 10 qt": "stainless-steel and black colour claims conflict between retailers",
+    "Capresso Steam Pro": "source model values 304.01 and 30301C conflict",
+    "Fitbit Versa 2 (Sears row)": "Sears row is the Stone/Mist Grey colourway",
+    "SentrySafe P005C (Sears row)": "Sears row model evidence conflicts with the black P005C",
+    "Victor traps (Sears row)": "Sears row is the M915 bait station, not the M668 glue trap",
+    "Franklin pickleball activator": "paddle-only versus paddle-and-ball bundle",
+    "Nexium 24HR 42 ct": "Walmart capsules versus Amazon ClearMinis, and Target package size 14",
+    "Flonase 144 sprays": "Amazon bundle adds a pack of tissues",
+    "Supershieldz iPhone 8 Plus 3-pack": "Amazon version also lists iPhone 7 Plus compatibility",
+    "Mojo NFL carry-on / NBA spinner": "team licences differ between the two listings",
+    "Lysol wipes flatpack 6 ct": "different pack format from the 80 ct twin pack",
+    "Cuisinart TOB-1010 / TOB-1010FR": "refurbished versus new condition",
+    "Nostalgia retro microwave": "0.7 and 0.9 cu ft models",
+    "Costway retro microwave": "black/rose-gold versus gold colour claims",
+    "Krib Bling washer": "XQB70-618B versus XQB60 model",
+    "ZENY twin tub": "washed capacities are described inconsistently",
+    "Swagtron K5 scooter": "pink versus blue colourways",
+    "Arden Selections cushion": "stone grey versus black stripe",
+    "Blazing Needles cushions": "java versus toffee colour",
+    "Benissimo rug": "grey versus navy colour",
+    "Uberlube": "100 ml versus 55 ml",
+    "Turmeric supplement": "different formulas and counts",
+    "Eucalyptus oil / hydrosol": "oil versus floral water",
+    "Purina Pro Plan variety packs": "different recipes inside the variety pack",
+    "Panini Mosaic hanger box": "different sealed configurations",
+    "Pets Alive sloth": "source model strings conflict",
+    "Sharpie paint marker": "the Amazon listing is a multi-pack unit",
+    "Step2 climber": "different model numbers 834699 / 85314"
+  },
+  "photo_failures": []
+}
