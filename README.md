@@ -333,7 +333,7 @@ mvn clean verify
 | Missing JavaFX runtime | Use `mvn javafx:run`, not a single Java file or `java -jar`. |
 | Photo model missing | Run setup once with internet before the demonstration. |
 | Wrong model hash | Remove/replace that incorrect file, then rerun setup. No silent alternate model is used. |
-| Camera unavailable | Check permissions, drivers and other camera apps; use Upload photo. Physical devices were not tested here. |
+| Camera unavailable | Check permissions, drivers and other camera apps; use Upload photo. Physical devices were not tested here. | 
 | No stars / ratings shown | The bundled dataset has no rating column. This is intentional rather than a bug; see [UI, charts and ratings](docs/UI_AND_CHARTS.md). |
 | Weak/wrong image suggestions | Improve lighting/background/crop, try another view, or use text search. Confirm variants; the catalog has only 79 curated products. |
 | No products after filters | Clear text/category/store/three-store/watch filters, or Clear photo. |
