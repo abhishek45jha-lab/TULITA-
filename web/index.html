@@ -4,19 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101510">
-  <meta name="description" content="Explore Tulita's curated historical product catalog and compare recorded prices.">
+  <meta name="description" content="Explore Tulita's curated historical product catalog, compare recorded prices, plan a budget, and try local photo matching.">
   <title>Tulita — Compare Smart. Shop Better.</title>
   <link rel="preconnect" href="https://raw.githubusercontent.com">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="features.css">
   <script src="app.js" defer></script>
+  <script src="features.js" defer></script>
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
       <a class="brand" href="#top" aria-label="Tulita home"><span class="brand-mark">T</span><span>TULITA<small>SMART SHOPPING</small></span></a>
       <div class="nav-label">WORKSPACE</div>
-      <a class="nav-link active" href="#catalog"><span>▦</span> Discover</a>
-      <div class="sidebar-note"><span class="live-dot"></span> Curated catalog <b>79</b><small>Historical records · not live prices</small></div>
+      <a class="nav-link active" href="#catalog" data-feature-tab="catalog"><span>▦</span> Discover</a>
+      <a class="nav-link" href="#budget" data-feature-tab="budget"><span>◎</span> Budget planner</a>
+      <a class="nav-link" href="#photo-search" data-feature-tab="photo"><span>⌗</span> Photo search</a>
+      <div class="sidebar-note"><span class="live-dot"></span> Curated catalog <b id="sidebar-count">79</b><small>Historical records · not live prices</small></div>
       <div class="sidebar-bottom"><span class="avatar">T</span><span>Catalog preview<small>Browser edition</small></span></div>
     </aside>
 
@@ -36,7 +40,7 @@
       <div class="results-row"><p id="results-count">Loading catalog…</p><span class="data-note">Prices are historical observations</span></div>
       <section id="product-grid" class="product-grid" aria-live="polite"></section>
       <section id="status" class="status" role="status">Loading Tulita catalog…</section>
-      <footer><span>© Tulita · Browser preview</span><span>Data: curated ProMap subset · <a href="https://github.com/abhishek45jha-lab/TULITA-/blob/main/datasets/promap/ATTRIBUTION.md" target="_blank" rel="noopener noreferrer">provenance & attribution</a></span></footer>
+      <footer><span>© Tulita · Browser edition</span><span>Data: curated ProMap subset · <a href="https://github.com/abhishek45jha-lab/TULITA-/blob/main/datasets/promap/ATTRIBUTION.md" target="_blank" rel="noopener noreferrer">provenance & attribution</a></span></footer>
     </main>
   </div>
 
