@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101510">
+  <meta name="description" content="Explore Tulita's curated historical product catalog and compare recorded prices.">
+  <title>Tulita — Compare Smart. Shop Better.</title>
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#top" aria-label="Tulita home"><span class="brand-mark">T</span><span>TULITA<small>SMART SHOPPING</small></span></a>
+      <div class="nav-label">WORKSPACE</div>
+      <a class="nav-link active" href="#catalog"><span>▦</span> Discover</a>
+      <div class="sidebar-note"><span class="live-dot"></span> Curated catalog <b>79</b><small>Historical records · not live prices</small></div>
+      <div class="sidebar-bottom"><span class="avatar">T</span><span>Catalog preview<small>Browser edition</small></span></div>
+    </aside>
+
+    <main id="top">
+      <header class="topbar"><div><span class="eyebrow">TULITA / DISCOVER</span><h1>Find the better buy.</h1></div><a class="source-link" href="https://github.com/abhishek45jha-lab/TULITA-" target="_blank" rel="noopener noreferrer">Project repository <span>↗</span></a></header>
+      <section class="hero" aria-label="Catalog summary">
+        <div class="hero-copy"><span class="pill"><i></i> SOURCE-REVIEWED CATALOG</span><h2>Compare products.<br><em>Shop with context.</em></h2><p>Browse curated product variants and compare their recorded retailer prices in one place.</p></div>
+        <div class="hero-stats"><div><strong id="stat-products">—</strong><span>products</span></div><div><strong id="stat-prices">—</strong><span>price records</span></div><div><strong>3</strong><span>retailers</span></div></div>
+        <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      </section>
+
+      <section class="toolbar" id="catalog" aria-label="Search and filter catalog">
+        <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search products, brands, models…" autocomplete="off"><kbd>/</kbd></label>
+        <label class="select-wrap"><span class="sr-only">Category</span><select id="category"><option value="">All categories</option></select></label>
+        <label class="select-wrap"><span class="sr-only">Sort products</span><select id="sort"><option value="relevance">Sort: featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name: A to Z</option></select></label>
+      </section>
+      <div class="results-row"><p id="results-count">Loading catalog…</p><span class="data-note">Prices are historical observations</span></div>
+      <section id="product-grid" class="product-grid" aria-live="polite"></section>
+      <section id="status" class="status" role="status">Loading Tulita catalog…</section>
+      <footer><span>© Tulita · Browser preview</span><span>Data: curated ProMap subset · <a href="https://github.com/abhishek45jha-lab/TULITA-/blob/main/datasets/promap/ATTRIBUTION.md" target="_blank" rel="noopener noreferrer">provenance & attribution</a></span></footer>
+    </main>
+  </div>
+
+  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="dialog-title">
+    <form method="dialog"><button class="close-button" aria-label="Close comparison">×</button></form>
+    <div id="dialog-content"></div>
+  </dialog>
+</body>
+</html>
